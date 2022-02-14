@@ -1,4 +1,4 @@
-import 'package:pokedex/modules/home/models/result.dart';
+import 'package:pokedex/modules/home/models/result_model.dart';
 
 class PokemonList {
     PokemonList({
