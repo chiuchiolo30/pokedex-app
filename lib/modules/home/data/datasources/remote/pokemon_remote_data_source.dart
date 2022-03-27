@@ -7,7 +7,7 @@ import 'package:pokedex/modules/home/data/model/pokemon_list_model.dart';
 import 'package:pokedex/modules/home/domain/entities/pokemon_list.dart';
 
 abstract class PokemonRemoteDataSource {
-  Future<PokemonList> getAll();
+  Future<PokemonList> getAll({  Map<String, dynamic> queryParameters = const {} });
 }
 
 class PokemonRemoteDataSourceImpl extends ApiDio implements PokemonRemoteDataSource {

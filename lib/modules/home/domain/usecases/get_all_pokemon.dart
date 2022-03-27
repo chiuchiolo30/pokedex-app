@@ -8,8 +8,8 @@ class GetAllPokemon {
 
   GetAllPokemon(this._getAllPokemonRepository);
 
-  Future<PokemonList> call() async {
-    return await _getAllPokemonRepository.getAll();
+  Future<PokemonList> call({ int offset = 0, int limit = 20}) async {
+    return await _getAllPokemonRepository.getAll(offset:offset, limit:limit);
   }
 }
   

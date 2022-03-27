@@ -19,6 +19,6 @@ class PokemonListModel extends PokemonList {
     pokemons: List<Pokemon>.from(json['results'].map((x) => PokemonModel.fromJson(x))),
     count: json['count'],
     next: json['next'],
-    previous: json['previous'],
+    previous: json['previous'] ?? '',
   );
 }
