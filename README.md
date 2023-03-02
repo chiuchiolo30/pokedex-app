@@ -1,16 +1,25 @@
-# pokedex
+# FLUTTER - POKEDEX - LISTA INFINITA
 
-A new Flutter project.
+<p align="center">
+  <a href="https://flutter.dev/" target="blank"><img src="https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png" alt="Flutter Logo" /></a>
+</p>
+<br>
+<table align="center">
+<tr>
+    <td>
+      <img src="./screenshot/01.gif" alt="Search-Light" width="200"/>
+    </td>
+  </tr>
+</table>
 
-## Getting Started
+# Ejecutar en desarrollo
 
-This project is a starting point for a Flutter application.
+1. Clonar el repositorio
+2. Ejecutar
+```
+flutter pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
