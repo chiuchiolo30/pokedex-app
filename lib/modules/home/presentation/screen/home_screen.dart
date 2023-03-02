@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
         primary: true,
         title: Text(widget.title),
       ),
-      floatingActionButton: upScroll ? _ButtonUp(_animateToIndex) : null,
+      floatingActionButton: upScroll ? _UpButton(_animateToIndex) : null,
       body: BlocBuilder<PokemonBloc, PokemonState>(
         builder: (context, state) {
          return Padding(
@@ -85,10 +85,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-class _ButtonUp extends StatelessWidget {
+class _UpButton extends StatelessWidget {
 
   final Function _callback;
-  const _ButtonUp(this._callback) : super();
+  const _UpButton(this._callback) : super();
 
   @override
   Widget build(BuildContext context) {
