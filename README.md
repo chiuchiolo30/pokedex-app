@@ -7,7 +7,7 @@
 <table align="center">
 <tr>
     <td>
-      <img src="./screenshot/03.gif" alt="Search-Light" width="200"/>
+      <img src="./screenshot/08.gif" alt="Search-Light" width="400"/>
     </td>
   </tr>
 </table>
