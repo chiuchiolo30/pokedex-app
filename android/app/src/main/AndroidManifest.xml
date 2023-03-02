@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pokedex">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="pokedex"
         android:name="${applicationName}"
@@ -30,5 +32,11 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+        <!-- SOLUTION TO: [DP] cancelDraw io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2@220fc4c isViewVisible: true -->
+        <meta-data
+            android:name="io.flutter.embedding.android.SplashScreenDrawable"
+            android:resource="@drawable/launch_background"/>
+            
     </application>
 </manifest>
